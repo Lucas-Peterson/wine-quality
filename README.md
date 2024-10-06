@@ -9,6 +9,9 @@ This project demonstrates the use of the `RandomForestClassifier` from the `scik
 - **Feature Importance**: Identify which features (chemical properties of the wine) are most important for the model's predictions.
 - **Visualizations**: Matrices and curves for better understanding of the model's performance.
 
+
+
+
 ## Project Structure
 
 # wine_classification.py: 
@@ -24,6 +27,8 @@ This project demonstrates the use of the `RandomForestClassifier` from the `scik
 # Dataset Structure:
     Features: 13 numerical features representing the chemical properties of the wines.
     Target Classes: 3 classes representing different types of wines.
+
+
 
 
 ## Installation
@@ -61,6 +66,7 @@ ROC Curves: ROC curves and AUC values for each wine class, visualizing the trade
 
 
 
+
 ## Example output
 
 Accuracy: 0.98
@@ -83,6 +89,8 @@ weighted avg       0.98      0.98      0.98        54
 
 
 
+
+
 ## Visualizations
 The script generates the following visualizations:
 
@@ -94,6 +102,8 @@ Shows which features are most important for predicting wine class.
 
 ### ROC Curves:
 ROC curves for each class, showing the model's performance in terms of True Positive Rate and False Positive Rate.
+
+
 
 
 ## Improvements
