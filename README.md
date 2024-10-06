@@ -86,13 +86,13 @@ weighted avg       0.98      0.98      0.98        54
 ## Visualizations
 The script generates the following visualizations:
 
-# Confusion Matrix:
+### Confusion Matrix:
 Heatmap of predicted vs actual classifications.
 
-# Feature Importance Plot:
+### Feature Importance Plot:
 Shows which features are most important for predicting wine class.
 
-# ROC Curves:
+### ROC Curves:
 ROC curves for each class, showing the model's performance in terms of True Positive Rate and False Positive Rate.
 
 
