@@ -27,36 +27,36 @@ This project demonstrates the use of the `RandomForestClassifier` from the `scik
 
 
 ## Installation
-# 1. Clone the repository (or download the project files)
+1. Clone the repository (or download the project files)
 git clone https://github.com/your-username/wine-classification.git
 
-# 2. Navigate into the project directory
+ 2. Navigate into the project directory
 cd wine-classification
 
-# 3. (Optional but recommended) Create and activate a virtual environment
-# On Windows:
-# python -m venv venv
-# venv\Scripts\activate
+3. (Optional but recommended) Create and activate a virtual environment
+ On Windows:
+python -m venv venv
+venv\Scripts\activate
 
-# On macOS/Linux:
+On macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
 
-# 4. Install the required dependencies from the requirements.txt file
+4. Install the required dependencies from the requirements.txt file
 pip install -r requirements.txt
 
-# 5. Run the project
+5. Run the project
 python wine_classification.py
 
 
 ## Output
 After running the script, the following outputs will be generated:
 
-# Accuracy Score: A numerical value representing how well the model performs on the test data.
-# Confusion Matrix: A matrix visualizing how many samples were correctly and incorrectly classified.
-# Classification Report: Precision, Recall, and F1-score for each class of wine.
-# Feature Importance Plot: A bar plot showing the importance of each feature for making predictions.
-# ROC Curves: ROC curves and AUC values for each wine class, visualizing the trade-off between True Positive Rate and False Positive Rate.
+Accuracy Score: A numerical value representing how well the model performs on the test data.
+Confusion Matrix: A matrix visualizing how many samples were correctly and incorrectly classified.
+Classification Report: Precision, Recall, and F1-score for each class of wine.
+Feature Importance Plot: A bar plot showing the importance of each feature for making predictions.
+ROC Curves: ROC curves and AUC values for each wine class, visualizing the trade-off between True Positive Rate and False Positive Rate.
 
 
 
