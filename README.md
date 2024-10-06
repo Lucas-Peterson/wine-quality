@@ -86,14 +86,21 @@ weighted avg       0.98      0.98      0.98        54
 ## Visualizations
 The script generates the following visualizations:
 
-# Confusion Matrix: Heatmap of predicted vs actual classifications.
-# Feature Importance Plot: Shows which features are most important for predicting wine class.
-# ROC Curves: ROC curves for each class, showing the model's performance in terms of True Positive Rate and False Positive Rate.
+# Confusion Matrix:
+Heatmap of predicted vs actual classifications.
+
+# Feature Importance Plot:
+Shows which features are most important for predicting wine class.
+
+# ROC Curves:
+ROC curves for each class, showing the model's performance in terms of True Positive Rate and False Positive Rate.
 
 
 ## Improvements
 Possible future improvements to this project:
 
-# Hyperparameter Tuning: Experiment with different hyperparameters of the RandomForestClassifier to optimize performance.
-# Additional Models: Try other classification models (e.g., SVM, KNeighborsClassifier) for comparison.
-# More Metrics: Implement more advanced metrics like Matthews correlation coefficient or Cohen's kappa to better understand performance.
+Hyperparameter Tuning: Experiment with different hyperparameters of the RandomForestClassifier to optimize performance.
+
+Additional Models: Try other classification models (e.g., SVM, KNeighborsClassifier) for comparison.
+
+More Metrics: Implement more advanced metrics like Matthews correlation coefficient or Cohen's kappa to better understand performance.
